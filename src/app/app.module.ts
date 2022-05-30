@@ -11,16 +11,11 @@ import { ProductDeleteComponent } from './product/product-delete/product-delete.
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ProductListComponent,
-    ProductCreateComponent,
-    ProductEditComponent,
-    ProductDeleteComponent
+    AppComponent
   ],
     imports: [
         BrowserModule,
-        AppRoutingModule,
-        ReactiveFormsModule
+        AppRoutingModule
     ],
   providers: [],
   bootstrap: [AppComponent]
